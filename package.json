@@ -1,0 +1,54 @@
+{
+  "name": "simple-react-boilerplate",
+  "version": "0.0.0",
+  "description": "Simple react boilerplate for beginners who want to understand the flow of an Redux application",
+  "main": "public/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --inline --colors",
+    "build": "webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/em222iv/react-redux-boilerplate"
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "Boilerplate"
+  ],
+  "author": "erik magnusson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/em222iv/react-simple/issues"
+  },
+  "homepage": "https://github.com/em222iv/react-simple",
+  "dependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "react": "15.4.0",
+    "react-dom": "15.4.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "react-stonecutter": "^0.3.3",
+    "redux": "^3.5.2",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "codebird": "^2.6.0",
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "bower": "^1.7.9",
+    "eslint": "^3.0.1",
+    "eslint-plugin-react": "^5.2.2",
+    "extract-loader": "0.0.2",
+    "file-loader": "^0.9.0",
+    "json-loader": "^0.5.4",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
